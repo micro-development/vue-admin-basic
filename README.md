@@ -1,6 +1,13 @@
-# ITTLR 基础模块
+# ITTLR 基础账户中心模块
 
-> 管理端 基础模块，包含：账户中心。
+## 依赖信息
+
+- [微开发官方文档](https://docs.microdevelopment.dev/)
+- [it-md shell 脚手架](https://github.com/micro-development/micro-development-sh)
+
+## 依赖模块
+
+- [公共模块](https://github.com/micro-development/vue-admin-common)
 
 ## 启动项目
 
