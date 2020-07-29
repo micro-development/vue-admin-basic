@@ -3,7 +3,7 @@
   "description": "vue-admin-basic",
   "author": "yaimeet",
   "targetDir": "src/base-resource",
-  "gitHost": "https://github.com",
+  "gitHost": "git@github.com",
   "gitNamespace": "micro-development",
   "packageKeySplit": "#",
   "dependencies": {
