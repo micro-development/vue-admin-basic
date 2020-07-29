@@ -1,0 +1,17 @@
+{
+  "name": "vue-admin-basic",
+  "description": "vue-admin-basic",
+  "author": "yaimeet",
+  "targetDir": "src/base-resource",
+  "gitHost": "https://github.com",
+  "gitNamespace": "micro-development",
+  "packageKeySplit": "#",
+  "dependencies": {
+    "vue-admin-common#master": {
+      "gitRepoName": "vue-admin-common",
+      "gitBranchName": "master",
+      "lock": false
+    }
+  },
+  "lock": false
+}

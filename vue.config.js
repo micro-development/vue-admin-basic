@@ -3,7 +3,7 @@
  * @date 2019/11/13
  * @Description
  */
-const webpack = require('./src/base-resource/it-admin-common/webpack')
+const webpack = require('./src/base-resource/vue-admin-common#master/webpack')
 
 // console.log('basic module vue.config.js webpack', webpack)
 
@@ -13,6 +13,6 @@ module.exports = webpack.init({
     },
     port: 8002,
     alias: {
-        common: webpack.resolve('../it-admin-common')
+        common: webpack.resolve('../vue-admin-common#master')
     }
 }).setProxyApi(webpack.resolve('../../../proxyTarget.js')).setProxyList().run()
