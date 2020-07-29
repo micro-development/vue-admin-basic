@@ -13,6 +13,7 @@ module.exports = webpack.init({
     },
     port: 8002,
     alias: {
-        common: webpack.resolve('../vue-admin-common#master')
+        // common: webpack.resolve('../vue-admin-common#master'),
+        common: '../vue-admin-common#master'
     }
-}).setProxyApi(webpack.resolve('../../../proxyTarget.js')).setProxyList().run()
+}).setProxyApi('../../../proxyTarget.js').setProxyList().run()
